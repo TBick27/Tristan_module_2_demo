@@ -65,3 +65,59 @@ replaced_string = new_string.replace("hello", 'hi')
 print(replaced_string)
 random_string = new_string.replace("python", "SCREAMING") +new_string.replace("world","unimaginable horrors")
 print(random_string)
+
+food = 4500
+time = 10
+fat = (food * time)
+print(fat)
+
+
+print(age)
+
+result = ((10+5) * 2) / 3
+print(result)
+
+# A list of Itegers
+daily_steps = [10043,9700,4500,7800,5420]
+
+# A list of mixed data values
+employee_data = ["A123",50024.03,595, True]
+
+# A list of lists
+List_of_lists:[["A" , "B" , "C"], [1 , "x" , True] , [False , 12 , 5.5]]
+
+print(daily_steps[1])
+
+daily_steps[4] = 100
+print(daily_steps)
+
+daily_steps.append(8694)
+print(daily_steps)
+
+daily_steps.insert(3464,24)
+print(daily_steps)
+ 
+daily_steps= [10343,9385,7029,102931,5921,7029]
+
+# removethe first 7029
+daily_steps.remove(7029)
+print(daily_steps)
+
+popped = daily_steps.pop()
+print(daily_steps)
+
+daily_steps = [10343,9385,7029,10931,5921,5921]
+ #sets the index value to the daily steps
+ 
+index_value = daily_steps.index(5921)
+print(index_value)
+count = daily_steps.count(5921)
+print(count)
+
+daily_steps = [10343,9385,7029,10931,5921]
+daily_steps.sort()
+print(daily_steps)
+
+daily_steps = [10343,9385,7029,10931,5921]
+daily_steps.sort(reverse=True)
+print(daily_steps)
