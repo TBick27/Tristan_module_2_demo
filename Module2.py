@@ -121,3 +121,6 @@ print(daily_steps)
 daily_steps = [10343,9385,7029,10931,5921]
 daily_steps.sort(reverse=True)
 print(daily_steps)
+
+daily_steps.reverse()
+print(daily_steps)
