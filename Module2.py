@@ -124,3 +124,94 @@ print(daily_steps)
 
 daily_steps.reverse()
 print(daily_steps)
+
+fruit_values = {'apples': 25, 'grapes': 10, 'bananas': 36}
+print(fruit_values)
+
+car = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+
+x = car.keys()
+car["color"] = "white" # adds another key/value pair to the dictionary
+print(x)
+
+x = car.values()
+print(x)
+
+car["year"] = 2018
+print(x)
+
+x = car.items()
+print (x)
+
+fruit_inventory = {'apples': 23, 'oranges': 10, 'bananas': 59, 'plums' : 100}
+ 
+print(fruit_inventory.get('apples'))
+print(fruit_inventory.get('stinky'))
+
+print(fruit_inventory)
+
+fruit_inventory.pop('oranges')
+
+print(fruit_inventory)
+
+fruit_inventory.pop('apples')
+
+print(fruit_inventory)
+
+print(fruit_inventory.pop('pears', 'fruit is not in dictionary'))
+
+print(fruit_inventory)
+
+fruit_inventory.clear()
+print(fruit_inventory)
+
+#two sets
+primes = {2, 3, 5, 7, 11, 13, 17, 19, 23}
+fives = set()
+
+primes.add(29)
+fives.add(5)
+
+print(primes)
+print(fives)
+
+primes.remove(3)
+print(primes)
+
+primes.discard(22)
+
+union = primes.union(fives)
+print(union)
+
+primes = {2, 3, 5, 7, 11 ,13, 17, 19, 23}
+fives = {5, 10, 15, 20, 25, 30, 35, 40}
+
+union = fives.union(primes)
+print(union)
+
+primes = {2, 3, 5, 7, 11 ,13, 17, 19, 23}
+fives = {5, 10, 15, 20, 25, 30, 35, 40}
+
+difference = primes.difference(fives)
+print(difference)
+
+difference = fives.difference(primes)
+print(difference)
+
+primes = {2, 3, 5, 7, 11 ,13, 17, 19, 23}
+fives = {5, 10, 15, 20, 25, 30, 35, 40}
+
+intersect = primes.intersection(fives)
+print(intersect)
+
+intersect = fives.intersection(primes)
+print(intersect)
+
+list = {5, 10, 15}
+
+intersect1 = list.intersection(fives)
+print(intersect1)
